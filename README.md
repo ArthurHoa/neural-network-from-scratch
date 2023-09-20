@@ -34,7 +34,7 @@ For computation, let's take:
 FALSE = 0 -> Represented in Blue  
 TRUE = 1 -> represented in Red  
 
-and_linear | ReLu | Heavyside | Sigmoid
+Linear | ReLu | Heavyside | Sigmoid
 :--:|:--:|:--:|:--:
 <img src="perceptron-c/extra/and_linear.png" width="200"> | <img src="perceptron-c/extra/and_relu.png" width="200"> | <img src="perceptron-c/extra/and_heavyside.png" width="200"> | <img src="perceptron-c/extra/and_sigmoid.png" width="200">  
 
