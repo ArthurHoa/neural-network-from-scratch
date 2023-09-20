@@ -53,9 +53,13 @@ The implementation offers the possibility to add or remove hidden layers with an
 
 ### The Breast Cancer dataset
 
+<img src="neural-network/extra/breast-cancer.png" width="300">
+
 ### The MNIST Dataset
 
 MNIST database is composed of handwritten digits, with a training set of 60,000 examples, and a test set of 10,000 examples. For the purpose of the experiment, and to run faster on my own computer I have restricted the problem to the first two digits 0 and 1. Also note that the proposed neural network is not a convolutional neural network.  
 Fin the dataset [here](http://yann.lecun.com/exdb/mnist/).
 
-<img src="neural-network/extra/MnistExamples.png" width="400">
+<img src="neural-network/extra/MnistExamples.png" width="300">
+
+<img src="neural-network/extra/mnist.png" width="300">
