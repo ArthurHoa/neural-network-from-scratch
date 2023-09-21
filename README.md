@@ -51,15 +51,24 @@ The artificial neural network is a collection of connected artificial neurons. I
 
 The implementation offers the possibility to add or remove hidden layers with any number of neurons. For the examples, the following architecture is used with a sigmoid activation fuction:
 
+
+<img src="neural-network/extra/nnarchi.png" width="300">
+
 ### The Breast Cancer dataset
+
+First, the neural network is trained on the Breast Cancer dataset. It is a classic and very easy binary classification dataset. Here are the following accuracies for the model, along with its errors.
 
 <img src="neural-network/extra/breast-cancer.png" width="400">
 
 ### The MNIST Dataset
 
+To perform digits visual recognition, I trained the neural network on the MNIST dataset. 
+
 MNIST database is composed of handwritten digits, with a training set of 60,000 examples, and a test set of 10,000 examples. For the purpose of the experiment, and to run faster on my own computer I have restricted the problem to the first two digits 0 and 1. Also note that the proposed neural network is not a convolutional neural network.  
 Fin the dataset [here](http://yann.lecun.com/exdb/mnist/).
 
 <img src="neural-network/extra/MnistExamples.png" width="200">
+
+Here are the accuracies for the model at each epoch, performing well at the end. Model errors are also represented:
 
 <img src="neural-network/extra/mnist.png" width="400">
